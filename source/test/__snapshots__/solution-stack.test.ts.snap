@@ -1,0 +1,2820 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+Object {
+  "Mappings": Object {
+    "Solution": Object {
+      "Data": Object {
+        "SendAnonymousUsageData": "Yes",
+      },
+    },
+  },
+  "Outputs": Object {
+    "ReflowOvenReflowOvenapiEndpoint42B5A496": Object {
+      "Value": Object {
+        "Fn::Join": Array [
+          "",
+          Array [
+            "https://",
+            Object {
+              "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+            },
+            ".execute-api.",
+            Object {
+              "Ref": "AWS::Region",
+            },
+            ".",
+            Object {
+              "Ref": "AWS::URLSuffix",
+            },
+            "/",
+            Object {
+              "Ref": "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8",
+            },
+            "/",
+          ],
+        ],
+      },
+    },
+    "ReflowOvenReflowOvenapiendpointFA145F5B": Object {
+      "Value": Object {
+        "Fn::Join": Array [
+          "",
+          Array [
+            "https://",
+            Object {
+              "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+            },
+            ".execute-api.",
+            Object {
+              "Ref": "AWS::Region",
+            },
+            ".",
+            Object {
+              "Ref": "AWS::URLSuffix",
+            },
+            "/",
+            Object {
+              "Ref": "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8",
+            },
+            "/",
+          ],
+        ],
+      },
+    },
+  },
+  "Parameters": Object {
+    "AssetParameters4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bdArtifactHash5260F4BF": Object {
+      "Description": "Artifact hash for asset \\"4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bd\\"",
+      "Type": "String",
+    },
+    "AssetParameters4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bdS3Bucket391FCC99": Object {
+      "Description": "S3 bucket for asset \\"4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bd\\"",
+      "Type": "String",
+    },
+    "AssetParameters4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bdS3VersionKey044D465B": Object {
+      "Description": "S3 key for asset version \\"4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bd\\"",
+      "Type": "String",
+    },
+    "AssetParameters67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24ArtifactHashBA91B77F": Object {
+      "Description": "Artifact hash for asset \\"67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24\\"",
+      "Type": "String",
+    },
+    "AssetParameters67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24S3Bucket4D46ABB5": Object {
+      "Description": "S3 bucket for asset \\"67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24\\"",
+      "Type": "String",
+    },
+    "AssetParameters67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24S3VersionKeyB0F28861": Object {
+      "Description": "S3 key for asset version \\"67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24\\"",
+      "Type": "String",
+    },
+    "AssetParameters8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464ArtifactHashCBCA3016": Object {
+      "Description": "Artifact hash for asset \\"8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464\\"",
+      "Type": "String",
+    },
+    "AssetParameters8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464S3Bucket9E609D01": Object {
+      "Description": "S3 bucket for asset \\"8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464\\"",
+      "Type": "String",
+    },
+    "AssetParameters8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464S3VersionKey034BF067": Object {
+      "Description": "S3 key for asset version \\"8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464\\"",
+      "Type": "String",
+    },
+    "AssetParametersc4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3ArtifactHash71203051": Object {
+      "Description": "Artifact hash for asset \\"c4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3\\"",
+      "Type": "String",
+    },
+    "AssetParametersc4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3S3Bucket7CBF2D57": Object {
+      "Description": "S3 bucket for asset \\"c4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3\\"",
+      "Type": "String",
+    },
+    "AssetParametersc4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3S3VersionKey4712D980": Object {
+      "Description": "S3 key for asset version \\"c4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3\\"",
+      "Type": "String",
+    },
+  },
+  "Resources": Object {
+    "BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691": Object {
+      "DependsOn": Array [
+        "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36",
+        "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC",
+      ],
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W58",
+              "reason": "Invalid warning: function has access to cloudwatch",
+            },
+            Object {
+              "id": "W89",
+              "reason": "Invalid warning: function does not access VPC resources",
+            },
+            Object {
+              "id": "W92",
+              "reason": "We do not define any specific access amount, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "Code": Object {
+          "ZipFile": "exports.handler = (event, context) => {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports, import/no-extraneous-dependencies
+    const s3 = new (require('aws-sdk').S3)();
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const https = require('https');
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const url = require('url');
+    log(JSON.stringify(event, undefined, 2));
+    const props = event.ResourceProperties;
+    if (event.RequestType === 'Delete') {
+        props.NotificationConfiguration = {}; // this is how you clean out notifications
+    }
+    const req = {
+        Bucket: props.BucketName,
+        NotificationConfiguration: props.NotificationConfiguration,
+    };
+    return s3.putBucketNotificationConfiguration(req, (err, data) => {
+        log({ err, data });
+        if (err) {
+            return submitResponse('FAILED', err.message + \`\\\\nMore information in CloudWatch Log Stream: \${context.logStreamName}\`);
+        }
+        else {
+            return submitResponse('SUCCESS');
+        }
+    });
+    function log(obj) {
+        console.error(event.RequestId, event.StackId, event.LogicalResourceId, obj);
+    }
+    // eslint-disable-next-line max-len
+    // adapted from https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-lambda-function-code.html#cfn-lambda-function-code-cfnresponsemodule
+    // to allow sending an error message as a reason.
+    function submitResponse(responseStatus, reason) {
+        const responseBody = JSON.stringify({
+            Status: responseStatus,
+            Reason: reason || 'See the details in CloudWatch Log Stream: ' + context.logStreamName,
+            PhysicalResourceId: event.PhysicalResourceId || event.LogicalResourceId,
+            StackId: event.StackId,
+            RequestId: event.RequestId,
+            LogicalResourceId: event.LogicalResourceId,
+            NoEcho: false,
+        });
+        log({ responseBody });
+        const parsedUrl = url.parse(event.ResponseURL);
+        const options = {
+            hostname: parsedUrl.hostname,
+            port: 443,
+            path: parsedUrl.path,
+            method: 'PUT',
+            headers: {
+                'content-type': '',
+                'content-length': responseBody.length,
+            },
+        };
+        const request = https.request(options, (r) => {
+            log({ statusCode: r.statusCode, statusMessage: r.statusMessage });
+            context.done();
+        });
+        request.on('error', (error) => {
+            log({ sendError: error });
+            context.done();
+        });
+        request.write(responseBody);
+        request.end();
+    }
+};",
+        },
+        "Description": "AWS CloudFormation handler for \\"Custom::S3BucketNotifications\\" resources (@aws-cdk/aws-s3)",
+        "Handler": "index.handler",
+        "Role": Object {
+          "Fn::GetAtt": Array [
+            "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs12.x",
+        "Timeout": 300,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W12",
+              "reason": "This policy is used for custom resource handler.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "s3:PutBucketNotification",
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36",
+        "Roles": Array [
+          Object {
+            "Ref": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "InspectionCameraInspectionCamerabucket126AFCD5": Object {
+      "DeletionPolicy": "Retain",
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W51",
+              "reason": "This bucket doesn't need any bucket policy.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "BucketEncryption": Object {
+          "ServerSideEncryptionConfiguration": Array [
+            Object {
+              "ServerSideEncryptionByDefault": Object {
+                "SSEAlgorithm": "aws:kms",
+              },
+            },
+          ],
+        },
+        "LoggingConfiguration": Object {
+          "DestinationBucketName": Object {
+            "Ref": "InspectionCameraInspectionCameralogbucketEE5EAD72",
+          },
+          "LogFilePrefix": "inspectionCameraLog",
+        },
+        "PublicAccessBlockConfiguration": Object {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true,
+        },
+        "VersioningConfiguration": Object {
+          "Status": "Enabled",
+        },
+      },
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Retain",
+    },
+    "InspectionCameraInspectionCamerabucketAllowBucketNotificationsToSolutionStackInspectionCameraInspectionCameralambdaInspectionCameraLambda99A5338DD9C6DA7A": Object {
+      "Properties": Object {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": Object {
+          "Fn::GetAtt": Array [
+            "InspectionCameraInspectionCameralambdaInspectionCameraLambda6A88E3EC",
+            "Arn",
+          ],
+        },
+        "Principal": "s3.amazonaws.com",
+        "SourceAccount": Object {
+          "Ref": "AWS::AccountId",
+        },
+        "SourceArn": Object {
+          "Fn::GetAtt": Array [
+            "InspectionCameraInspectionCamerabucket126AFCD5",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "InspectionCameraInspectionCamerabucketNotifications53175AFB": Object {
+      "DependsOn": Array [
+        "InspectionCameraInspectionCamerabucketAllowBucketNotificationsToSolutionStackInspectionCameraInspectionCameralambdaInspectionCameraLambda99A5338DD9C6DA7A",
+      ],
+      "Properties": Object {
+        "BucketName": Object {
+          "Ref": "InspectionCameraInspectionCamerabucket126AFCD5",
+        },
+        "NotificationConfiguration": Object {
+          "LambdaFunctionConfigurations": Array [
+            Object {
+              "Events": Array [
+                "s3:ObjectCreated:*",
+              ],
+              "LambdaFunctionArn": Object {
+                "Fn::GetAtt": Array [
+                  "InspectionCameraInspectionCameralambdaInspectionCameraLambda6A88E3EC",
+                  "Arn",
+                ],
+              },
+            },
+          ],
+        },
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::S3BucketNotifications",
+    },
+    "InspectionCameraInspectionCamerabucketPolicyE6D65DEF": Object {
+      "Properties": Object {
+        "Bucket": Object {
+          "Ref": "InspectionCameraInspectionCamerabucket126AFCD5",
+        },
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "s3:*",
+              "Condition": Object {
+                "Bool": Object {
+                  "aws:SecureTransport": "false",
+                },
+              },
+              "Effect": "Deny",
+              "Principal": "*",
+              "Resource": Array [
+                Object {
+                  "Fn::GetAtt": Array [
+                    "InspectionCameraInspectionCamerabucket126AFCD5",
+                    "Arn",
+                  ],
+                },
+                Object {
+                  "Fn::Join": Array [
+                    "",
+                    Array [
+                      Object {
+                        "Fn::GetAtt": Array [
+                          "InspectionCameraInspectionCamerabucket126AFCD5",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::S3::BucketPolicy",
+    },
+    "InspectionCameraInspectionCameralambdaInspectionCameraLambda6A88E3EC": Object {
+      "DependsOn": Array [
+        "InspectionCameraInspectionCameralambdaInspectionCameraLambdaServiceRoleDefaultPolicy9931AA24",
+        "InspectionCameraInspectionCameralambdaInspectionCameraLambdaServiceRole008CFCEA",
+      ],
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W58",
+              "reason": "Invalid warning: function has access to cloudwatch",
+            },
+            Object {
+              "id": "W89",
+              "reason": "Invalid warning: function does not access VPC resources",
+            },
+            Object {
+              "id": "W92",
+              "reason": "We do not define any specific access amount, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "Code": Object {
+          "S3Bucket": Object {
+            "Ref": "AssetParameters8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464S3Bucket9E609D01",
+          },
+          "S3Key": Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                Object {
+                  "Fn::Select": Array [
+                    0,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParameters8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464S3VersionKey034BF067",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                Object {
+                  "Fn::Select": Array [
+                    1,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParameters8af110459105689860e8bac9b89fbccf2483c0dc4b60b5506c31cd576a335464S3VersionKey034BF067",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            ],
+          },
+        },
+        "Environment": Object {
+          "Variables": Object {
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+            "CUSTOM_USER_AGENT": "AwsSolution/SO0172/1.0.0",
+            "LEDGER_NAME": "ledgerNameTest",
+            "SEND_ANONYMOUS_DATA": Object {
+              "Fn::FindInMap": Array [
+                "Solution",
+                "Data",
+                "SendAnonymousUsageData",
+              ],
+            },
+            "TABLE_NAME": "tableNameTest",
+          },
+        },
+        "FunctionName": "InspectionCameraLambda",
+        "Handler": "index.handler",
+        "Role": Object {
+          "Fn::GetAtt": Array [
+            "InspectionCameraInspectionCameralambdaInspectionCameraLambdaServiceRole008CFCEA",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs14.x",
+        "Timeout": 60,
+        "TracingConfig": Object {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "InspectionCameraInspectionCameralambdaInspectionCameraLambdaLogRetentionA729A46F": Object {
+      "Properties": Object {
+        "LogGroupName": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "/aws/lambda/",
+              Object {
+                "Ref": "InspectionCameraInspectionCameralambdaInspectionCameraLambda6A88E3EC",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 3653,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "InspectionCameraInspectionCameralambdaInspectionCameraLambdaServiceRole008CFCEA": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "InspectionCameraInspectionCameralambdaInspectionCameraLambdaServiceRoleDefaultPolicy9931AA24": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W12",
+              "reason": "We have not defined any specific tracing requirements, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": Array [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            Object {
+              "Action": "qldb:SendCommand",
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::Join": Array [
+                  "",
+                  Array [
+                    "arn:",
+                    Object {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":qldb:",
+                    Object {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    Object {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":ledger/ledgerNameTest",
+                  ],
+                ],
+              },
+            },
+            Object {
+              "Action": Array [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+              ],
+              "Effect": "Allow",
+              "Resource": Array [
+                Object {
+                  "Fn::GetAtt": Array [
+                    "InspectionCameraInspectionCamerabucket126AFCD5",
+                    "Arn",
+                  ],
+                },
+                Object {
+                  "Fn::Join": Array [
+                    "",
+                    Array [
+                      Object {
+                        "Fn::GetAtt": Array [
+                          "InspectionCameraInspectionCamerabucket126AFCD5",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "InspectionCameraInspectionCameralambdaInspectionCameraLambdaServiceRoleDefaultPolicy9931AA24",
+        "Roles": Array [
+          Object {
+            "Ref": "InspectionCameraInspectionCameralambdaInspectionCameraLambdaServiceRole008CFCEA",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "InspectionCameraInspectionCameralogbucketEE5EAD72": Object {
+      "DeletionPolicy": "Retain",
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W51",
+              "reason": "This bucket doesn't need any bucket policy.",
+            },
+            Object {
+              "id": "W35",
+              "reason": "This is a logs bucket, no logging desired.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "AccessControl": "LogDeliveryWrite",
+        "BucketEncryption": Object {
+          "ServerSideEncryptionConfiguration": Array [
+            Object {
+              "ServerSideEncryptionByDefault": Object {
+                "SSEAlgorithm": "aws:kms",
+              },
+            },
+          ],
+        },
+        "PublicAccessBlockConfiguration": Object {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true,
+        },
+      },
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Retain",
+    },
+    "InspectionCameraInspectionCameras3vpcendpoint85517E79": Object {
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": Array [
+                "s3:PutObject",
+                "s3:PutObjectAcl",
+              ],
+              "Effect": "Allow",
+              "Principal": Object {
+                "AWS": Array [
+                  Object {
+                    "Fn::Join": Array [
+                      "",
+                      Array [
+                        "arn:aws:sts::",
+                        Object {
+                          "Ref": "AWS::AccountId",
+                        },
+                        ":assumed-role/",
+                        Object {
+                          "Ref": "RoleRolerole1AB037D5",
+                        },
+                        "/DeviceSession",
+                      ],
+                    ],
+                  },
+                  Object {
+                    "Fn::GetAtt": Array [
+                      "RoleRolerole1AB037D5",
+                      "Arn",
+                    ],
+                  },
+                ],
+              },
+              "Resource": Object {
+                "Fn::Join": Array [
+                  "",
+                  Array [
+                    Object {
+                      "Fn::GetAtt": Array [
+                        "InspectionCameraInspectionCamerabucket126AFCD5",
+                        "Arn",
+                      ],
+                    },
+                    "/*",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PrivateDnsEnabled": false,
+        "SecurityGroupIds": Array [
+          Object {
+            "Fn::GetAtt": Array [
+              "InspectionCameraInspectionCameras3vpcendpointsg170DF9C9",
+              "GroupId",
+            ],
+          },
+        ],
+        "ServiceName": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "com.amazonaws.",
+              Object {
+                "Ref": "AWS::Region",
+              },
+              ".s3",
+            ],
+          ],
+        },
+        "SubnetIds": Array [
+          Object {
+            "Ref": "VPCPrivateSubnet1Subnet77928CB3",
+          },
+          Object {
+            "Ref": "VPCPrivateSubnet2SubnetFF789F8E",
+          },
+        ],
+        "VpcEndpointType": "Interface",
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::VPCEndpoint",
+    },
+    "InspectionCameraInspectionCameras3vpcendpointsg170DF9C9": Object {
+      "Properties": Object {
+        "GroupDescription": "SolutionStack/InspectionCamera/InspectionCamera-s3-vpc-endpoint-sg",
+        "SecurityGroupEgress": Array [
+          Object {
+            "CidrIp": Object {
+              "Fn::GetAtt": Array [
+                "VPC61AD6880",
+                "CidrBlock",
+              ],
+            },
+            "Description": Object {
+              "Fn::Join": Array [
+                "",
+                Array [
+                  "from ",
+                  Object {
+                    "Fn::GetAtt": Array [
+                      "VPC61AD6880",
+                      "CidrBlock",
+                    ],
+                  },
+                  ":443",
+                ],
+              ],
+            },
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "ToPort": 443,
+          },
+        ],
+        "SecurityGroupIngress": Array [
+          Object {
+            "CidrIp": Object {
+              "Fn::GetAtt": Array [
+                "VPC61AD6880",
+                "CidrBlock",
+              ],
+            },
+            "Description": Object {
+              "Fn::Join": Array [
+                "",
+                Array [
+                  "from ",
+                  Object {
+                    "Fn::GetAtt": Array [
+                      "VPC61AD6880",
+                      "CidrBlock",
+                    ],
+                  },
+                  ":443",
+                ],
+              ],
+            },
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "ToPort": 443,
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::SecurityGroup",
+    },
+    "InspectionModelInspectionModeliotcoreruleFEE3DDD6": Object {
+      "Properties": Object {
+        "RuleName": "InspectionModelIoTCoreRule",
+        "TopicRulePayload": Object {
+          "Actions": Array [
+            Object {
+              "Lambda": Object {
+                "FunctionArn": Object {
+                  "Fn::GetAtt": Array [
+                    "InspectionModelInspectionModellambdaInspectionModelLambdaCFA0899D",
+                    "Arn",
+                  ],
+                },
+              },
+            },
+          ],
+          "AwsIotSqlVersion": "2016-03-23",
+          "RuleDisabled": false,
+          "Sql": "SELECT * FROM 'iot/inspectionmodel'",
+        },
+      },
+      "Type": "AWS::IoT::TopicRule",
+    },
+    "InspectionModelInspectionModellambdaInspectionModelLambdaCFA0899D": Object {
+      "DependsOn": Array [
+        "InspectionModelInspectionModellambdaInspectionModelLambdaServiceRoleDefaultPolicy026B609C",
+        "InspectionModelInspectionModellambdaInspectionModelLambdaServiceRole4B887B80",
+      ],
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W58",
+              "reason": "Invalid warning: function has access to cloudwatch",
+            },
+            Object {
+              "id": "W89",
+              "reason": "Invalid warning: function does not access VPC resources",
+            },
+            Object {
+              "id": "W92",
+              "reason": "We do not define any specific access amount, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "Code": Object {
+          "S3Bucket": Object {
+            "Ref": "AssetParameters4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bdS3Bucket391FCC99",
+          },
+          "S3Key": Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                Object {
+                  "Fn::Select": Array [
+                    0,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParameters4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bdS3VersionKey044D465B",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                Object {
+                  "Fn::Select": Array [
+                    1,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParameters4db69eb43994fd669afe1639c62588e73218589955fd4dfeef45bfc5867134bdS3VersionKey044D465B",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            ],
+          },
+        },
+        "Environment": Object {
+          "Variables": Object {
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+            "CUSTOM_USER_AGENT": "AwsSolution/SO0172/1.0.0",
+            "LEDGER_NAME": "ledgerNameTest",
+            "SEND_ANONYMOUS_DATA": Object {
+              "Fn::FindInMap": Array [
+                "Solution",
+                "Data",
+                "SendAnonymousUsageData",
+              ],
+            },
+            "TABLE_NAME": "tableNameTest",
+          },
+        },
+        "FunctionName": "InspectionModelLambda",
+        "Handler": "index.handler",
+        "Role": Object {
+          "Fn::GetAtt": Array [
+            "InspectionModelInspectionModellambdaInspectionModelLambdaServiceRole4B887B80",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs14.x",
+        "Timeout": 60,
+        "TracingConfig": Object {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "InspectionModelInspectionModellambdaInspectionModelLambdaInspectionModeliotinvokeAD49319D": Object {
+      "Properties": Object {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": Object {
+          "Fn::GetAtt": Array [
+            "InspectionModelInspectionModellambdaInspectionModelLambdaCFA0899D",
+            "Arn",
+          ],
+        },
+        "Principal": "iot.amazonaws.com",
+        "SourceArn": Object {
+          "Fn::GetAtt": Array [
+            "InspectionModelInspectionModeliotcoreruleFEE3DDD6",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "InspectionModelInspectionModellambdaInspectionModelLambdaLogRetentionA9729C06": Object {
+      "Properties": Object {
+        "LogGroupName": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "/aws/lambda/",
+              Object {
+                "Ref": "InspectionModelInspectionModellambdaInspectionModelLambdaCFA0899D",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 3653,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "InspectionModelInspectionModellambdaInspectionModelLambdaServiceRole4B887B80": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "InspectionModelInspectionModellambdaInspectionModelLambdaServiceRoleDefaultPolicy026B609C": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W12",
+              "reason": "We have not defined any specific tracing requirements, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": Array [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            Object {
+              "Action": "qldb:SendCommand",
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::Join": Array [
+                  "",
+                  Array [
+                    "arn:",
+                    Object {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":qldb:",
+                    Object {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    Object {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":ledger/ledgerNameTest",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "InspectionModelInspectionModellambdaInspectionModelLambdaServiceRoleDefaultPolicy026B609C",
+        "Roles": Array [
+          Object {
+            "Ref": "InspectionModelInspectionModellambdaInspectionModelLambdaServiceRole4B887B80",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A": Object {
+      "DependsOn": Array [
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+      ],
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W58",
+              "reason": "Invalid warning: function has access to cloudwatch",
+            },
+            Object {
+              "id": "W89",
+              "reason": "Invalid warning: function does not access VPC resources",
+            },
+            Object {
+              "id": "W92",
+              "reason": "We do not define any specific access amount, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "Code": Object {
+          "S3Bucket": Object {
+            "Ref": "AssetParameters67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24S3Bucket4D46ABB5",
+          },
+          "S3Key": Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                Object {
+                  "Fn::Select": Array [
+                    0,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParameters67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24S3VersionKeyB0F28861",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                Object {
+                  "Fn::Select": Array [
+                    1,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParameters67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24S3VersionKeyB0F28861",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            ],
+          },
+        },
+        "Handler": "index.handler",
+        "Role": Object {
+          "Fn::GetAtt": Array [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs12.x",
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W12",
+              "reason": "This policy is used for custom resource handler.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": Array [
+                "logs:PutRetentionPolicy",
+                "logs:DeleteRetentionPolicy",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB",
+        "Roles": Array [
+          Object {
+            "Ref": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "QLDBQLDBqldbFDD122BB": Object {
+      "Properties": Object {
+        "Name": "ledgerNameTest",
+        "PermissionsMode": "ALLOW_ALL",
+      },
+      "Type": "AWS::QLDB::Ledger",
+    },
+    "ReflowOvenAllowRegisterProduct8991E88F": Object {
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "execute-api:Invoke",
+              "Effect": "Allow",
+              "Resource": Array [
+                Object {
+                  "Fn::Join": Array [
+                    "",
+                    Array [
+                      "arn:",
+                      Object {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":execute-api:",
+                      Object {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      Object {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":",
+                      Object {
+                        "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+                      },
+                      "/",
+                      Object {
+                        "Ref": "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8",
+                      },
+                      "/POST/product",
+                    ],
+                  ],
+                },
+                Object {
+                  "Fn::Join": Array [
+                    "",
+                    Array [
+                      "arn:",
+                      Object {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":execute-api:",
+                      Object {
+                        "Ref": "AWS::Region",
+                      },
+                      ":",
+                      Object {
+                        "Ref": "AWS::AccountId",
+                      },
+                      ":",
+                      Object {
+                        "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+                      },
+                      "/",
+                      Object {
+                        "Ref": "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8",
+                      },
+                      "/PUT/product/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "ReflowOvenAllowRegisterProduct8991E88F",
+        "Roles": Array [
+          Object {
+            "Ref": "RoleRolerole1AB037D5",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "ReflowOvenReflowOvenapiAD4261D0": Object {
+      "Properties": Object {
+        "EndpointConfiguration": Object {
+          "Types": Array [
+            "PRIVATE",
+          ],
+        },
+        "Name": "LedgerSolutionAPI",
+        "Policy": Object {
+          "Statement": Array [
+            Object {
+              "Action": "execute-api:Invoke",
+              "Effect": "Allow",
+              "Principal": "*",
+              "Resource": "execute-api:/*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::ApiGateway::RestApi",
+    },
+    "ReflowOvenReflowOvenapiAccountB3C4475F": Object {
+      "DependsOn": Array [
+        "ReflowOvenReflowOvenapiAD4261D0",
+      ],
+      "Properties": Object {
+        "CloudWatchRoleArn": Object {
+          "Fn::GetAtt": Array [
+            "ReflowOvenReflowOvenapiCloudWatchRole134E5D43",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "AWS::ApiGateway::Account",
+    },
+    "ReflowOvenReflowOvenapiCloudWatchRole134E5D43": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "apigateway.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "ReflowOvenReflowOvenapiDeployment6B8670ED9dfc709702daaadaf2ffc34cecd24e16": Object {
+      "DependsOn": Array [
+        "ReflowOvenReflowOvenapiproductserialNumberPUT9DF8E3CC",
+        "ReflowOvenReflowOvenapiproductserialNumber7D469302",
+        "ReflowOvenReflowOvenapiproductPOST3DB4A6C6",
+        "ReflowOvenReflowOvenapiproduct2183B3DE",
+        "ReflowOvenReflowOvenapiReflowOvencreateproductmodelC4693A7D",
+        "ReflowOvenReflowOvenapiReflowOvenupdateproductmodelA77B37E2",
+        "ReflowOvenReflowOvenvalidator913178A9",
+      ],
+      "Properties": Object {
+        "Description": "Automatically created by the RestApi construct",
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+      },
+      "Type": "AWS::ApiGateway::Deployment",
+    },
+    "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8": Object {
+      "Properties": Object {
+        "AccessLogSetting": Object {
+          "DestinationArn": Object {
+            "Fn::GetAtt": Array [
+              "ReflowOvenReflowOvenapiloggroup9E87B70B",
+              "Arn",
+            ],
+          },
+          "Format": "$context.identity.sourceIp $context.identity.caller $context.identity.user [$context.requestTime] \\"$context.httpMethod $context.resourcePath $context.protocol\\" $context.status $context.responseLength $context.requestId",
+        },
+        "DeploymentId": Object {
+          "Ref": "ReflowOvenReflowOvenapiDeployment6B8670ED9dfc709702daaadaf2ffc34cecd24e16",
+        },
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+        "StageName": "prod",
+      },
+      "Type": "AWS::ApiGateway::Stage",
+    },
+    "ReflowOvenReflowOvenapiReflowOvencreateproductmodelC4693A7D": Object {
+      "Properties": Object {
+        "ContentType": "application/json",
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+        "Schema": Object {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "properties": Object {
+            "factoryId": Object {
+              "type": "string",
+            },
+            "lineId": Object {
+              "type": "string",
+            },
+            "serialNumber": Object {
+              "type": "string",
+            },
+          },
+          "required": Array [
+            "serialNumber",
+            "factoryId",
+            "lineId",
+          ],
+          "type": "object",
+        },
+      },
+      "Type": "AWS::ApiGateway::Model",
+    },
+    "ReflowOvenReflowOvenapiReflowOvenupdateproductmodelA77B37E2": Object {
+      "Properties": Object {
+        "ContentType": "application/json",
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+        "Schema": Object {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+        },
+      },
+      "Type": "AWS::ApiGateway::Model",
+    },
+    "ReflowOvenReflowOvenapiReflowOvenusageplan646ED7AF": Object {
+      "Properties": Object {
+        "ApiStages": Array [
+          Object {
+            "ApiId": Object {
+              "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+            },
+            "Stage": Object {
+              "Ref": "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8",
+            },
+            "Throttle": Object {},
+          },
+        ],
+      },
+      "Type": "AWS::ApiGateway::UsagePlan",
+    },
+    "ReflowOvenReflowOvenapigwvpcendpointsg0A6A7A0F": Object {
+      "Properties": Object {
+        "GroupDescription": "SolutionStack/ReflowOven/ReflowOven-apigw-vpc-endpoint-sg",
+        "SecurityGroupEgress": Array [
+          Object {
+            "CidrIp": Object {
+              "Fn::GetAtt": Array [
+                "VPC61AD6880",
+                "CidrBlock",
+              ],
+            },
+            "Description": Object {
+              "Fn::Join": Array [
+                "",
+                Array [
+                  "from ",
+                  Object {
+                    "Fn::GetAtt": Array [
+                      "VPC61AD6880",
+                      "CidrBlock",
+                    ],
+                  },
+                  ":443",
+                ],
+              ],
+            },
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "ToPort": 443,
+          },
+        ],
+        "SecurityGroupIngress": Array [
+          Object {
+            "CidrIp": Object {
+              "Fn::GetAtt": Array [
+                "VPC61AD6880",
+                "CidrBlock",
+              ],
+            },
+            "Description": Object {
+              "Fn::Join": Array [
+                "",
+                Array [
+                  "from ",
+                  Object {
+                    "Fn::GetAtt": Array [
+                      "VPC61AD6880",
+                      "CidrBlock",
+                    ],
+                  },
+                  ":443",
+                ],
+              ],
+            },
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "ToPort": 443,
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::SecurityGroup",
+    },
+    "ReflowOvenReflowOvenapiloggroup9E87B70B": Object {
+      "DeletionPolicy": "Retain",
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W84",
+              "reason": "This logGroup is encrypted by the default master key.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "RetentionInDays": 3653,
+      },
+      "Type": "AWS::Logs::LogGroup",
+      "UpdateReplacePolicy": "Retain",
+    },
+    "ReflowOvenReflowOvenapiproduct2183B3DE": Object {
+      "Properties": Object {
+        "ParentId": Object {
+          "Fn::GetAtt": Array [
+            "ReflowOvenReflowOvenapiAD4261D0",
+            "RootResourceId",
+          ],
+        },
+        "PathPart": "product",
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+      },
+      "Type": "AWS::ApiGateway::Resource",
+    },
+    "ReflowOvenReflowOvenapiproductPOST3DB4A6C6": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W59",
+              "reason": "This api doesn't require authorization.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "AuthorizationType": "AWS_IAM",
+        "HttpMethod": "POST",
+        "Integration": Object {
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":apigateway:",
+                Object {
+                  "Ref": "AWS::Region",
+                },
+                ":lambda:path/2015-03-31/functions/",
+                Object {
+                  "Fn::GetAtt": Array [
+                    "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC",
+                    "Arn",
+                  ],
+                },
+                "/invocations",
+              ],
+            ],
+          },
+        },
+        "RequestModels": Object {
+          "application/json": Object {
+            "Ref": "ReflowOvenReflowOvenapiReflowOvencreateproductmodelC4693A7D",
+          },
+        },
+        "RequestValidatorId": Object {
+          "Ref": "ReflowOvenReflowOvenvalidator913178A9",
+        },
+        "ResourceId": Object {
+          "Ref": "ReflowOvenReflowOvenapiproduct2183B3DE",
+        },
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+      },
+      "Type": "AWS::ApiGateway::Method",
+    },
+    "ReflowOvenReflowOvenapiproductPOSTApiPermissionSolutionStackReflowOvenReflowOvenapiC6F8EE9EPOSTproduct638FA89B": Object {
+      "Properties": Object {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": Object {
+          "Fn::GetAtt": Array [
+            "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC",
+            "Arn",
+          ],
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "arn:",
+              Object {
+                "Ref": "AWS::Partition",
+              },
+              ":execute-api:",
+              Object {
+                "Ref": "AWS::Region",
+              },
+              ":",
+              Object {
+                "Ref": "AWS::AccountId",
+              },
+              ":",
+              Object {
+                "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+              },
+              "/",
+              Object {
+                "Ref": "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8",
+              },
+              "/POST/product",
+            ],
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "ReflowOvenReflowOvenapiproductPOSTApiPermissionTestSolutionStackReflowOvenReflowOvenapiC6F8EE9EPOSTproduct0A1838EA": Object {
+      "Properties": Object {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": Object {
+          "Fn::GetAtt": Array [
+            "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC",
+            "Arn",
+          ],
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "arn:",
+              Object {
+                "Ref": "AWS::Partition",
+              },
+              ":execute-api:",
+              Object {
+                "Ref": "AWS::Region",
+              },
+              ":",
+              Object {
+                "Ref": "AWS::AccountId",
+              },
+              ":",
+              Object {
+                "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+              },
+              "/test-invoke-stage/POST/product",
+            ],
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "ReflowOvenReflowOvenapiproductserialNumber7D469302": Object {
+      "Properties": Object {
+        "ParentId": Object {
+          "Ref": "ReflowOvenReflowOvenapiproduct2183B3DE",
+        },
+        "PathPart": "{serialNumber}",
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+      },
+      "Type": "AWS::ApiGateway::Resource",
+    },
+    "ReflowOvenReflowOvenapiproductserialNumberPUT9DF8E3CC": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W59",
+              "reason": "This api doesn't require authorization.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "AuthorizationType": "AWS_IAM",
+        "HttpMethod": "PUT",
+        "Integration": Object {
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":apigateway:",
+                Object {
+                  "Ref": "AWS::Region",
+                },
+                ":lambda:path/2015-03-31/functions/",
+                Object {
+                  "Fn::GetAtt": Array [
+                    "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC",
+                    "Arn",
+                  ],
+                },
+                "/invocations",
+              ],
+            ],
+          },
+        },
+        "RequestModels": Object {
+          "application/json": Object {
+            "Ref": "ReflowOvenReflowOvenapiReflowOvenupdateproductmodelA77B37E2",
+          },
+        },
+        "RequestValidatorId": Object {
+          "Ref": "ReflowOvenReflowOvenvalidator913178A9",
+        },
+        "ResourceId": Object {
+          "Ref": "ReflowOvenReflowOvenapiproductserialNumber7D469302",
+        },
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+      },
+      "Type": "AWS::ApiGateway::Method",
+    },
+    "ReflowOvenReflowOvenapiproductserialNumberPUTApiPermissionSolutionStackReflowOvenReflowOvenapiC6F8EE9EPUTproductserialNumber927276F6": Object {
+      "Properties": Object {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": Object {
+          "Fn::GetAtt": Array [
+            "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC",
+            "Arn",
+          ],
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "arn:",
+              Object {
+                "Ref": "AWS::Partition",
+              },
+              ":execute-api:",
+              Object {
+                "Ref": "AWS::Region",
+              },
+              ":",
+              Object {
+                "Ref": "AWS::AccountId",
+              },
+              ":",
+              Object {
+                "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+              },
+              "/",
+              Object {
+                "Ref": "ReflowOvenReflowOvenapiDeploymentStageprod50526DF8",
+              },
+              "/PUT/product/*",
+            ],
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "ReflowOvenReflowOvenapiproductserialNumberPUTApiPermissionTestSolutionStackReflowOvenReflowOvenapiC6F8EE9EPUTproductserialNumberDB9C6DAB": Object {
+      "Properties": Object {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": Object {
+          "Fn::GetAtt": Array [
+            "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC",
+            "Arn",
+          ],
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "arn:",
+              Object {
+                "Ref": "AWS::Partition",
+              },
+              ":execute-api:",
+              Object {
+                "Ref": "AWS::Region",
+              },
+              ":",
+              Object {
+                "Ref": "AWS::AccountId",
+              },
+              ":",
+              Object {
+                "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+              },
+              "/test-invoke-stage/PUT/product/*",
+            ],
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "ReflowOvenReflowOvenapivpcendpoint0727D026": Object {
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "execute-api:Invoke",
+              "Effect": "Allow",
+              "Principal": Object {
+                "AWS": Array [
+                  Object {
+                    "Fn::Join": Array [
+                      "",
+                      Array [
+                        "arn:aws:sts::",
+                        Object {
+                          "Ref": "AWS::AccountId",
+                        },
+                        ":assumed-role/",
+                        Object {
+                          "Ref": "RoleRolerole1AB037D5",
+                        },
+                        "/DeviceSession",
+                      ],
+                    ],
+                  },
+                  Object {
+                    "Fn::GetAtt": Array [
+                      "RoleRolerole1AB037D5",
+                      "Arn",
+                    ],
+                  },
+                ],
+              },
+              "Resource": Object {
+                "Fn::Join": Array [
+                  "",
+                  Array [
+                    "arn:",
+                    Object {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":execute-api:",
+                    Object {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    Object {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":",
+                    Object {
+                      "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+                    },
+                    "/*",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PrivateDnsEnabled": true,
+        "SecurityGroupIds": Array [
+          Object {
+            "Fn::GetAtt": Array [
+              "ReflowOvenReflowOvenapigwvpcendpointsg0A6A7A0F",
+              "GroupId",
+            ],
+          },
+        ],
+        "ServiceName": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "com.amazonaws.",
+              Object {
+                "Ref": "AWS::Region",
+              },
+              ".execute-api",
+            ],
+          ],
+        },
+        "SubnetIds": Array [
+          Object {
+            "Ref": "VPCPrivateSubnet1Subnet77928CB3",
+          },
+          Object {
+            "Ref": "VPCPrivateSubnet2SubnetFF789F8E",
+          },
+        ],
+        "VpcEndpointType": "Interface",
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::VPCEndpoint",
+    },
+    "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC": Object {
+      "DependsOn": Array [
+        "ReflowOvenReflowOvenlambdaReflowOvenLambdaServiceRoleDefaultPolicy6DD2AEF5",
+        "ReflowOvenReflowOvenlambdaReflowOvenLambdaServiceRole485C1EE6",
+      ],
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W58",
+              "reason": "Invalid warning: function has access to cloudwatch",
+            },
+            Object {
+              "id": "W89",
+              "reason": "Invalid warning: function does not access VPC resources",
+            },
+            Object {
+              "id": "W92",
+              "reason": "We do not define any specific access amount, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "Code": Object {
+          "S3Bucket": Object {
+            "Ref": "AssetParametersc4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3S3Bucket7CBF2D57",
+          },
+          "S3Key": Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                Object {
+                  "Fn::Select": Array [
+                    0,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParametersc4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3S3VersionKey4712D980",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                Object {
+                  "Fn::Select": Array [
+                    1,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParametersc4d38e7e38858cde61d0c70ca0ce8aa685d172b86c6ab8a89a3eacc7903aa7b3S3VersionKey4712D980",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            ],
+          },
+        },
+        "Environment": Object {
+          "Variables": Object {
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+            "CUSTOM_USER_AGENT": "AwsSolution/SO0172/1.0.0",
+            "LEDGER_NAME": "ledgerNameTest",
+            "SEND_ANONYMOUS_DATA": Object {
+              "Fn::FindInMap": Array [
+                "Solution",
+                "Data",
+                "SendAnonymousUsageData",
+              ],
+            },
+            "TABLE_NAME": "tableNameTest",
+          },
+        },
+        "FunctionName": "ReflowOvenLambda",
+        "Handler": "index.handler",
+        "Role": Object {
+          "Fn::GetAtt": Array [
+            "ReflowOvenReflowOvenlambdaReflowOvenLambdaServiceRole485C1EE6",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs14.x",
+        "Timeout": 60,
+        "TracingConfig": Object {
+          "Mode": "Active",
+        },
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "ReflowOvenReflowOvenlambdaReflowOvenLambdaLogRetention0D9EA89C": Object {
+      "Properties": Object {
+        "LogGroupName": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "/aws/lambda/",
+              Object {
+                "Ref": "ReflowOvenReflowOvenlambdaReflowOvenLambdaBD754CBC",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 3653,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "ReflowOvenReflowOvenlambdaReflowOvenLambdaServiceRole485C1EE6": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "ReflowOvenReflowOvenlambdaReflowOvenLambdaServiceRoleDefaultPolicy6DD2AEF5": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W12",
+              "reason": "We have not defined any specific tracing requirements, so leave it the default value.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": Array [
+                "xray:PutTraceSegments",
+                "xray:PutTelemetryRecords",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+            Object {
+              "Action": "qldb:SendCommand",
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::Join": Array [
+                  "",
+                  Array [
+                    "arn:",
+                    Object {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":qldb:",
+                    Object {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    Object {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":ledger/ledgerNameTest",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "ReflowOvenReflowOvenlambdaReflowOvenLambdaServiceRoleDefaultPolicy6DD2AEF5",
+        "Roles": Array [
+          Object {
+            "Ref": "ReflowOvenReflowOvenlambdaReflowOvenLambdaServiceRole485C1EE6",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "ReflowOvenReflowOvenvalidator913178A9": Object {
+      "Properties": Object {
+        "RestApiId": Object {
+          "Ref": "ReflowOvenReflowOvenapiAD4261D0",
+        },
+        "ValidateRequestBody": true,
+      },
+      "Type": "AWS::ApiGateway::RequestValidator",
+    },
+    "RoleRoleinstanceprofile8077F3D5": Object {
+      "Properties": Object {
+        "Roles": Array [
+          Object {
+            "Ref": "RoleRolerole1AB037D5",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::InstanceProfile",
+    },
+    "RoleRolerole1AB037D5": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W28",
+              "reason": "This role use for demonstration",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": Object {
+                  "Fn::Join": Array [
+                    "",
+                    Array [
+                      "ec2.",
+                      Object {
+                        "Ref": "AWS::URLSuffix",
+                      },
+                    ],
+                  ],
+                },
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/AmazonSSMManagedInstanceCore",
+              ],
+            ],
+          },
+        ],
+        "RoleName": "TamperProofQualityDataClientRole",
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "RoleRoleroleDefaultPolicyD9C2BAA2": Object {
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": Array [
+                "sts:AssumeRole",
+                "iam:GetRole",
+              ],
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::GetAtt": Array [
+                  "RoleRolerole1AB037D5",
+                  "Arn",
+                ],
+              },
+            },
+            Object {
+              "Action": Array [
+                "s3:PutObject",
+                "s3:PutObjectAcl",
+              ],
+              "Condition": Object {
+                "StringEquals": Object {
+                  "aws:sourceVpce": Object {
+                    "Ref": "InspectionCameraInspectionCameras3vpcendpoint85517E79",
+                  },
+                },
+              },
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::Join": Array [
+                  "",
+                  Array [
+                    Object {
+                      "Fn::GetAtt": Array [
+                        "InspectionCameraInspectionCamerabucket126AFCD5",
+                        "Arn",
+                      ],
+                    },
+                    "/*",
+                  ],
+                ],
+              },
+            },
+            Object {
+              "Action": "iot:Publish",
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::Join": Array [
+                  "",
+                  Array [
+                    "arn:",
+                    Object {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":iot:",
+                    Object {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    Object {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":topic/iot/inspectionmodel",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "RoleRoleroleDefaultPolicyD9C2BAA2",
+        "Roles": Array [
+          Object {
+            "Ref": "RoleRolerole1AB037D5",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "VPC61AD6880": Object {
+      "Properties": Object {
+        "CidrBlock": "10.0.0.0/16",
+        "EnableDnsHostnames": true,
+        "EnableDnsSupport": true,
+        "InstanceTenancy": "default",
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC",
+          },
+        ],
+      },
+      "Type": "AWS::EC2::VPC",
+    },
+    "VPCIGWE1DD60CF": Object {
+      "Properties": Object {
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC",
+          },
+        ],
+      },
+      "Type": "AWS::EC2::InternetGateway",
+    },
+    "VPCPrivateSubnet1DefaultRouteECADCC3A": Object {
+      "Properties": Object {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "NatGatewayId": Object {
+          "Ref": "VPCPublicSubnet1NATGateway773F4C26",
+        },
+        "RouteTableId": Object {
+          "Ref": "VPCPrivateSubnet1RouteTable49AABFA8",
+        },
+      },
+      "Type": "AWS::EC2::Route",
+    },
+    "VPCPrivateSubnet1RouteTable49AABFA8": Object {
+      "Properties": Object {
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PrivateSubnet1",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::RouteTable",
+    },
+    "VPCPrivateSubnet1RouteTableAssociationD9B03FCA": Object {
+      "Properties": Object {
+        "RouteTableId": Object {
+          "Ref": "VPCPrivateSubnet1RouteTable49AABFA8",
+        },
+        "SubnetId": Object {
+          "Ref": "VPCPrivateSubnet1Subnet77928CB3",
+        },
+      },
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+    },
+    "VPCPrivateSubnet1Subnet77928CB3": Object {
+      "Properties": Object {
+        "AvailabilityZone": Object {
+          "Fn::Select": Array [
+            0,
+            Object {
+              "Fn::GetAZs": "",
+            },
+          ],
+        },
+        "CidrBlock": "10.0.64.0/18",
+        "MapPublicIpOnLaunch": false,
+        "Tags": Array [
+          Object {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "Private",
+          },
+          Object {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Private",
+          },
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PrivateSubnet1",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::Subnet",
+    },
+    "VPCPrivateSubnet2DefaultRoute538BAFF8": Object {
+      "Properties": Object {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "NatGatewayId": Object {
+          "Ref": "VPCPublicSubnet2NATGateway5A7176EE",
+        },
+        "RouteTableId": Object {
+          "Ref": "VPCPrivateSubnet2RouteTable61C48158",
+        },
+      },
+      "Type": "AWS::EC2::Route",
+    },
+    "VPCPrivateSubnet2RouteTable61C48158": Object {
+      "Properties": Object {
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PrivateSubnet2",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::RouteTable",
+    },
+    "VPCPrivateSubnet2RouteTableAssociation8205E0E5": Object {
+      "Properties": Object {
+        "RouteTableId": Object {
+          "Ref": "VPCPrivateSubnet2RouteTable61C48158",
+        },
+        "SubnetId": Object {
+          "Ref": "VPCPrivateSubnet2SubnetFF789F8E",
+        },
+      },
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+    },
+    "VPCPrivateSubnet2SubnetFF789F8E": Object {
+      "Properties": Object {
+        "AvailabilityZone": Object {
+          "Fn::Select": Array [
+            1,
+            Object {
+              "Fn::GetAZs": "",
+            },
+          ],
+        },
+        "CidrBlock": "10.0.128.0/18",
+        "MapPublicIpOnLaunch": false,
+        "Tags": Array [
+          Object {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "Private",
+          },
+          Object {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Private",
+          },
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PrivateSubnet2",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::Subnet",
+    },
+    "VPCPublicSubnet1DefaultRoute3EBA16C7": Object {
+      "DependsOn": Array [
+        "VPCVPCGW3AFA48F6",
+      ],
+      "Properties": Object {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "GatewayId": Object {
+          "Ref": "VPCIGWE1DD60CF",
+        },
+        "RouteTableId": Object {
+          "Ref": "VPCPublicSubnet1RouteTable2DF31CC2",
+        },
+      },
+      "Type": "AWS::EC2::Route",
+    },
+    "VPCPublicSubnet1EIP4B4569C9": Object {
+      "Properties": Object {
+        "Domain": "vpc",
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet1",
+          },
+        ],
+      },
+      "Type": "AWS::EC2::EIP",
+    },
+    "VPCPublicSubnet1NATGateway773F4C26": Object {
+      "Properties": Object {
+        "AllocationId": Object {
+          "Fn::GetAtt": Array [
+            "VPCPublicSubnet1EIP4B4569C9",
+            "AllocationId",
+          ],
+        },
+        "SubnetId": Object {
+          "Ref": "VPCPublicSubnet1Subnet441EC08B",
+        },
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet1",
+          },
+        ],
+      },
+      "Type": "AWS::EC2::NatGateway",
+    },
+    "VPCPublicSubnet1RouteTable2DF31CC2": Object {
+      "Properties": Object {
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet1",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::RouteTable",
+    },
+    "VPCPublicSubnet1RouteTableAssociation45D07AC0": Object {
+      "Properties": Object {
+        "RouteTableId": Object {
+          "Ref": "VPCPublicSubnet1RouteTable2DF31CC2",
+        },
+        "SubnetId": Object {
+          "Ref": "VPCPublicSubnet1Subnet441EC08B",
+        },
+      },
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+    },
+    "VPCPublicSubnet1Subnet441EC08B": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W33",
+              "reason": "This is a public subnet, MapPublicIpOnLaunch is expected.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "AvailabilityZone": Object {
+          "Fn::Select": Array [
+            0,
+            Object {
+              "Fn::GetAZs": "",
+            },
+          ],
+        },
+        "CidrBlock": "10.0.0.0/24",
+        "MapPublicIpOnLaunch": true,
+        "Tags": Array [
+          Object {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "Public",
+          },
+          Object {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Public",
+          },
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet1",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::Subnet",
+    },
+    "VPCPublicSubnet2DefaultRoute7530A66D": Object {
+      "DependsOn": Array [
+        "VPCVPCGW3AFA48F6",
+      ],
+      "Properties": Object {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "GatewayId": Object {
+          "Ref": "VPCIGWE1DD60CF",
+        },
+        "RouteTableId": Object {
+          "Ref": "VPCPublicSubnet2RouteTableED3EBA50",
+        },
+      },
+      "Type": "AWS::EC2::Route",
+    },
+    "VPCPublicSubnet2EIPB849754E": Object {
+      "Properties": Object {
+        "Domain": "vpc",
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet2",
+          },
+        ],
+      },
+      "Type": "AWS::EC2::EIP",
+    },
+    "VPCPublicSubnet2NATGateway5A7176EE": Object {
+      "Properties": Object {
+        "AllocationId": Object {
+          "Fn::GetAtt": Array [
+            "VPCPublicSubnet2EIPB849754E",
+            "AllocationId",
+          ],
+        },
+        "SubnetId": Object {
+          "Ref": "VPCPublicSubnet2SubnetE3B6F81A",
+        },
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet2",
+          },
+        ],
+      },
+      "Type": "AWS::EC2::NatGateway",
+    },
+    "VPCPublicSubnet2RouteTableAssociation124A6C7A": Object {
+      "Properties": Object {
+        "RouteTableId": Object {
+          "Ref": "VPCPublicSubnet2RouteTableED3EBA50",
+        },
+        "SubnetId": Object {
+          "Ref": "VPCPublicSubnet2SubnetE3B6F81A",
+        },
+      },
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+    },
+    "VPCPublicSubnet2RouteTableED3EBA50": Object {
+      "Properties": Object {
+        "Tags": Array [
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet2",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::RouteTable",
+    },
+    "VPCPublicSubnet2SubnetE3B6F81A": Object {
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W33",
+              "reason": "This is a public subnet, MapPublicIpOnLaunch is expected.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "AvailabilityZone": Object {
+          "Fn::Select": Array [
+            1,
+            Object {
+              "Fn::GetAZs": "",
+            },
+          ],
+        },
+        "CidrBlock": "10.0.1.0/24",
+        "MapPublicIpOnLaunch": true,
+        "Tags": Array [
+          Object {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "Public",
+          },
+          Object {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Public",
+          },
+          Object {
+            "Key": "Name",
+            "Value": "SolutionStack/VPC/VPC/PublicSubnet2",
+          },
+        ],
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::Subnet",
+    },
+    "VPCVPCGW3AFA48F6": Object {
+      "Properties": Object {
+        "InternetGatewayId": Object {
+          "Ref": "VPCIGWE1DD60CF",
+        },
+        "VpcId": Object {
+          "Ref": "VPC61AD6880",
+        },
+      },
+      "Type": "AWS::EC2::VPCGatewayAttachment",
+    },
+    "VPCVPCflowlogFlowLog060F729D": Object {
+      "Properties": Object {
+        "DeliverLogsPermissionArn": Object {
+          "Fn::GetAtt": Array [
+            "VPCVPCflowlogIAMRoleCF35AA9C",
+            "Arn",
+          ],
+        },
+        "LogDestinationType": "cloud-watch-logs",
+        "LogGroupName": Object {
+          "Ref": "VPCVPCflowlogloggroupAE13638C",
+        },
+        "ResourceId": Object {
+          "Ref": "VPC61AD6880",
+        },
+        "ResourceType": "VPC",
+        "TrafficType": "ALL",
+      },
+      "Type": "AWS::EC2::FlowLog",
+    },
+    "VPCVPCflowlogIAMRoleCF35AA9C": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "vpc-flow-logs.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "VPCVPCflowlogIAMRoleDefaultPolicyEC3B2D44": Object {
+      "Properties": Object {
+        "PolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": Array [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents",
+                "logs:DescribeLogStreams",
+              ],
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::GetAtt": Array [
+                  "VPCVPCflowlogloggroupAE13638C",
+                  "Arn",
+                ],
+              },
+            },
+            Object {
+              "Action": "iam:PassRole",
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::GetAtt": Array [
+                  "VPCVPCflowlogIAMRoleCF35AA9C",
+                  "Arn",
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "VPCVPCflowlogIAMRoleDefaultPolicyEC3B2D44",
+        "Roles": Array [
+          Object {
+            "Ref": "VPCVPCflowlogIAMRoleCF35AA9C",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
+    "VPCVPCflowlogloggroupAE13638C": Object {
+      "DeletionPolicy": "Retain",
+      "Metadata": Object {
+        "cfn_nag": Object {
+          "rules_to_suppress": Array [
+            Object {
+              "id": "W84",
+              "reason": "This logGroup is encrypted by the default master key.",
+            },
+          ],
+        },
+      },
+      "Properties": Object {
+        "RetentionInDays": 3653,
+      },
+      "Type": "AWS::Logs::LogGroup",
+      "UpdateReplacePolicy": "Retain",
+    },
+  },
+}
+`;
