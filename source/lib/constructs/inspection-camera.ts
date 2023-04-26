@@ -28,7 +28,7 @@ export class InspectionCamera extends cdk.Construct {
     const bucket = new s3.Bucket(this, `${id}-bucket`, {
       versioned: true,
       publicReadAccess: false,
-      encryption: s3.BucketEncryption.S3_MANAGED,
+      encryption: s3.BucketEncryption.KMS_MANAGED,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       serverAccessLogsBucket: logBucket,
       serverAccessLogsPrefix: 'inspectionCameraLog'
