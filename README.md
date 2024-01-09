@@ -1,3 +1,6 @@
+## Deprecation Notice
+This AWS Solution has been archived and is no longer maintained by AWS. To discover other solutions, please visit the [AWS Solutions Library](https://aws.amazon.com/solutions/).
+
 # Tamper Proof Quality Data Using Amazon QLDB
 The Tamper Proof Quality Data Using Amazon QLDB is a solution that demonstrates how to inhibit customers from tampering with important data such as product quality data in manufuctuaring companies leveraging blockchain technology.
 
